@@ -27,5 +27,7 @@ public class Test02 {
 
 
         new Thread(() -> System.out.println(Thread.currentThread().getName()+",run")).start();
+
+
     }
 }
