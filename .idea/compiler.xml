@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mayikt-mt-jdk8" />
+        <module name="mayikt-jdk-8" />
       </profile>
     </annotationProcessing>
   </component>

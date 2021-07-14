@@ -11,16 +11,16 @@ import com.mayikt.service.AcanthopanaxInterface;
 public class Test03 {
     public static void main(String[] args) {
         new AcanthopanaxInterface(){
-
             @Override
             public void get() {
                 System.out.println("get");
             }
         }.get();
+
+
         AcanthopanaxInterface acanthopanaxInterface = () -> {
             System.out.println("使用lambda表达式写法");
         };
-
         acanthopanaxInterface.get();
     }
 }
